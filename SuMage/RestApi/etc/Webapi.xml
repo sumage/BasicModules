@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2017 sushant Kumar (sushant693@gmail.com) All rights reserved.
+ *
+ *  Module name: SuMage_RestApi (based on the folders we created)
+ *  Version: 0.0.1 (initial version of our module) 
+ *  Dependency: Magento_Catalog. We could have multiple dependencies. In this case, we would put <module name=”..” /> nodes under the sequence node.
+*/
+-->
+<route url="/V1/api/customer/login" method="POST">
+    <service class="SuMage\RestApi\Api\Customer\CustomerInterface" method="login"/>
+    <resources>
+        <resource ref="anonymous"/>
+    </resources>
+</route>

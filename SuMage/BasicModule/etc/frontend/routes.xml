@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Copyright © 2016 Magento. All rights reserved. * See COPYING.txt for license details.
+*
+*    route and frontName are the same  
+*    Magento 2 sees a URL like test/chunk2/chunk3 looks like fontname/controller/action.
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="SuMage" frontName="test">
+            <module name="SuMage_BasicModule" />
+        </route>
+    </router>
+</config>

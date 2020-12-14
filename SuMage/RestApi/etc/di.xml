@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2017 sushant Kumar (sushant693@gmail.com) All rights reserved.
+ *
+ *  Module name: SuMage_RestApi (based on the folders we created)
+ *  Version: 0.0.1 (initial version of our module) 
+ *  Dependency: Magento_Catalog. We could have multiple dependencies. In this case, we would put <module name=”..” /> nodes under the sequence node.
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <preference for="SuMage\RestApi\Api\Customer\CustomerInterface" type="SuMage\RestApi\Model\Customer\Customer" />
+</config>
